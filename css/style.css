@@ -53,12 +53,14 @@ h1,h2,h3{
 .hero h1{
     font-size:clamp(2rem,5vw,3.5rem);
     line-height: 1.1;
+    text-shadow: 0 6px 18px rgba(0,0,0,.55);
 }
 
 .subtitle{
     margin:15px 0;
     font-size:1.05rem;
     opacity: .95;
+    text-shadow: 0 6px 18px rgba(0,0,0,.55);
 }
 
 .btn{
@@ -114,11 +116,13 @@ h1,h2,h3{
     font-size:clamp(1.6rem,3.6vw,2.4rem);
     line-height:1.15;
     margin-bottom:10px;
+    text-shadow: 0 6px 18px rgba(0,0,0,.55);
 } 
 
 .benefits-subtitle{
     opacity:.92;
     margin-bottom:22px;
+    text-shadow: 0 6px 18px rgba(0,0,0,.55);
 }
 
 .benefits-grid li{
